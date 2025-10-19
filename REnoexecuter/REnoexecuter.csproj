@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.Web.WebView2.Core">
+      <HintPath>..\..\..\..\OneDrive\Desktop\PUT UR STUFF HERE\other\PT.7 VIDEO FILES!! XENO\VIDEO FILES!! PT.7 I Think\XenoStuff\Microsoft.Web.WebView2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.WebView2.WinForms">
+      <HintPath>..\..\..\..\OneDrive\Desktop\PUT UR STUFF HERE\other\PT.7 VIDEO FILES!! XENO\VIDEO FILES!! PT.7 I Think\XenoStuff\Microsoft.Web.WebView2.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.WebView2.Wpf">
+      <HintPath>..\..\..\..\OneDrive\Desktop\PUT UR STUFF HERE\other\PT.7 VIDEO FILES!! XENO\VIDEO FILES!! PT.7 I Think\XenoStuff\Microsoft.Web.WebView2.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\..\OneDrive\Desktop\PUT UR STUFF HERE\other\PT.7 VIDEO FILES!! XENO\VIDEO FILES!! PT.7 I Think\XenoStuff\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="XenoUI">
+      <HintPath>..\..\..\..\OneDrive\Desktop\PUT UR STUFF HERE\other\PT.7 VIDEO FILES!! XENO\VIDEO FILES!! PT.7 I Think\XenoStuff\XenoUI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.WindowsDesktop.App.WPF" />
+	</ItemGroup>
+
+</Project>
